@@ -133,7 +133,7 @@
       descriptionDubbed: 'Adicionar um teste com falha'
     },
     {
-      color: '#f94f28',
+      color: '#e88849',
       iconSymbol: '💥',
       iconCode: '&#128165',
       commit: 'git',
@@ -173,7 +173,7 @@
       descriptionDubbed: 'Adicionar ou atualizar segredo'
     },
     {
-      color: '#c5e763',
+      color: '#ba8049',
       iconSymbol: '🗃️',
       iconCode: '&#128451',
       commit: 'git',
@@ -193,7 +193,7 @@
       descriptionDubbed: 'Adicionar ou atualizar o arquivo de semente'
     },
     {
-      color: '#ff5864',
+      color: '#e25631',
       iconSymbol: '🍱',
       iconCode: '&#127857',
       commit: 'git',
@@ -233,7 +233,7 @@
       descriptionDubbed: 'Adicionar ou atualizar a documentação'
     },
     {
-      color: '#d9e3e8',
+      color: '#c35f76',
       iconSymbol: '📄',
       iconCode: '&#128196',
       commit: 'git',
@@ -283,7 +283,7 @@
       descriptionDubbed: 'Remover código morto'
     },
     {
-      color: '#d9e3e8',
+      color: '#7a6c57',
       iconSymbol: '🗑️',
       iconCode: '&#128465',
       commit: 'git',
@@ -393,7 +393,7 @@
       descriptionDubbed: 'Remove dependência'
     },
     {
-      color: '#56d1d8',
+      color: '#d8568c',
       iconSymbol: '⏪️',
       iconCode: '&#9194',
       commit: 'git',
@@ -403,7 +403,7 @@
       descriptionDubbed: 'Reverter alteração'
     },
     {
-      color: '#56d1d8',
+      color: '#dfc011',
       iconSymbol: '🔀',
       iconCode: '&#128256',
       commit: 'git',
@@ -413,7 +413,7 @@
       descriptionDubbed: 'Mesclar ramificação'
     },
     {
-      color: '#fdd0ae',
+      color: '#e6a97a',
       iconSymbol: '📦️',
       iconCode: '&#128230',
       commit: 'git',
@@ -433,7 +433,7 @@
       descriptionDubbed: 'Adicionar ou atualizar registro'
     },
     {
-      color: '#e6ebef',
+      color: '#ffc400',
       iconSymbol: '🔇',
       iconCode: '&#128263',
       commit: 'git',
@@ -443,7 +443,7 @@
       descriptionDubbed: 'Remover registro'
     },
     {
-      color: '#ffce49',
+      color: '#c661df',
       iconSymbol: '💡',
       iconCode: '&#128161',
       commit: 'git',
@@ -453,7 +453,7 @@
       descriptionDubbed: 'Adicionar ou atualizar comentário no código fonte'
     },
     {
-      color: '#ffc400',
+      color: '#43a182',
       iconSymbol: '🔧',
       iconCode: '&#128295',
       commit: 'git',
@@ -463,7 +463,7 @@
       descriptionDubbed: 'Adicionar ou atualizar arquivo de configuração'
     },
     {
-      color: '#ffc400',
+      color: '#8cb7da',
       iconSymbol: '🔨',
       iconCode: '&#128296',
       commit: 'git',
@@ -473,7 +473,7 @@
       descriptionDubbed: 'Adicionar ou atualizar script de desenvolvimento'
     },
     {
-      color: '#cedae6',
+      color: '#ee5353',
       iconSymbol: '📈',
       iconCode: '&#128172',
       commit: 'git',
@@ -483,7 +483,7 @@
       descriptionDubbed: 'Adicione ou atualize análises ou código de rastreamento'
     },
     {
-      color: '#bfe2ff',
+      color: '#b38188',
       iconSymbol: '🌐',
       iconCode: '&#127760',
       commit: 'git',
@@ -533,7 +533,7 @@
       descriptionDubbed: 'Melhore a experiência/usabilidade do usuário'
     },
     {
-      color: '#40c4ff',
+      color: '#f15df7',
       iconSymbol: '📱',
       iconCode: '&#128241',
       commit: 'git',
@@ -543,7 +543,7 @@
       descriptionDubbed: 'Trabalhe em design responsivo'
     },
     {
-      color: '#ffdb3a',
+      color: '#89e79d',
       iconSymbol: '💫',
       iconCode: '&#128171',
       commit: 'git',
@@ -563,7 +563,7 @@
       descriptionDubbed: 'Adicionar ou atualizar o logo comercial'
     },
     {
-      color: '#00a9f0',
+      color: '#b589e7',
       iconSymbol: '📸',
       iconCode: '&#128248',
       commit: 'git',
@@ -593,7 +593,7 @@
       descriptionDubbed: 'Adicionar ou atualizar texto e literal'
     },
     {
-      color: '#ffce49',
+      color: '#f5b11f',
       iconSymbol: '👥',
       iconCode: '&#128101',
       commit: 'git',
@@ -603,7 +603,7 @@
       descriptionDubbed: 'Adicionar ou atualizar colaborador'
     },
     {
-      color: '#ffe55f',
+      color: '#a3f1eb',
       iconSymbol: '🏗️',
       iconCode: '&#127959',
       commit: 'git',
@@ -613,7 +613,7 @@
       descriptionDubbed: 'Faça uma mudança arquitetônica'
     },
     {
-      color: '#77e856',
+      color: '#8cf56c',
       iconSymbol: '🩺',
       iconCode: '&#',
       commit: 'git',
@@ -623,7 +623,7 @@
       descriptionDubbed: 'Adicionar ou atualizar verificação de integridade'
     },
     {
-      color: '#ff6723',
+      color: '#fd7f45',
       iconSymbol: '🧱',
       iconCode: '&#',
       commit: 'git',
@@ -633,7 +633,7 @@
       descriptionDubbed: 'Mudança relacionada à infraestrutura'
     },
     {
-      color: '#77e856',
+      color: '#b66a6a',
       iconSymbol: '🥚',
       iconCode: '&#129370',
       commit: 'git',
