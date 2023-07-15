@@ -1,10 +1,22 @@
 {
-  "name": "commitemoji",
+  "name": "commit-patterns",
   "version": "1.0.0",
-  "description": "Um site baseado na utilização da dependência Gitmoji, onde se utiliza emoji nos commit para uma melhor identificação do que aconteceu",
+  "description": "Um site para verificar o padrão de tipos e emoji para utilizar nos commits",
   "main": "./src/index.html",
-  "repository": "git@github.com:deibsoncogo/CommitEmoji.git",
-  "author": "Deibson Cogo <deibsoncogo@outlook.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "author": {
+    "name": "Deibson Cogo",
+    "email": "deibsoncogo@outlook.com",
+    "url": "https://github.com/deibsoncogo/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deibsoncogo/CommitPatterns"
+  },
+  "keywords": [
+    "git",
+    "commit",
+    "emoji"
+  ]
 }
