@@ -27,7 +27,7 @@
       keyword: "performance"
     },
     {
-      title: "doc",
+      title: "docs",
       description: "Commits do tipo docs indicam que houveram mudanças na documentação, como por exemplo no readme do seu repositório (não inclui alterações em código)",
       summary: "Indicam que houveram modificações na documentação sem alterar o código",
       keyword: "documentação"
@@ -645,7 +645,7 @@
     `
 
     doc.getElementById("descriptionsType").innerHTML += `
-      <aside class="descriptionType">
+      <aside id="${types[index].title}" class="descriptionType hide">
         <div class="titleKeyword">
           <b class="title">${types[index].title}</b>
           <span class="divisor"></span>
@@ -661,6 +661,25 @@
       </aside>
     `
   }
+
+  doc.querySelectorAll(".type").forEach((type) => {
+    type.addEventListener("click", () => {
+      doc.querySelectorAll(".type").forEach((data) => {
+        data.removeAttribute('isChecked', "")
+      })
+
+      doc.querySelectorAll(".descriptionType").forEach((data) => {
+        data.setAttribute('class', 'descriptionType hide')
+      })
+
+      const title = type.querySelector(".title").innerHTML
+
+      type.setAttribute("isChecked", "")
+      doc.querySelector(`#${title}`).setAttribute('class', 'descriptionType')
+
+      doc.querySelector('#descriptionsType').setAttribute('class', '')
+    })
+  })
 
   for (let index = 0; index < emojis.length; index++) {
     doc.getElementById("emojis").innerHTML += `
