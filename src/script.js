@@ -590,21 +590,21 @@
         </main>
       </div>
     `
+  }
 
-    doc.querySelectorAll(".emoji").forEach((emoji) => {
-      emoji.addEventListener("click", () => {
-        emoji.querySelectorAll("strong").forEach((strong) => {
-          emoji.querySelectorAll("p").forEach((p) => {
-            if (p.hasAttribute("hidden")) {
-              strong.setAttribute("hidden", "")
-              p.removeAttribute("hidden")
-            } else {
-              strong.removeAttribute("hidden")
-              p.setAttribute("hidden", "")
-            }
-          })
+  doc.querySelectorAll(".emoji").forEach((emoji) => {
+    emoji.addEventListener("click", () => {
+      emoji.querySelectorAll("strong").forEach((strong) => {
+        emoji.querySelectorAll("p").forEach((p) => {
+          if (p.hasAttribute("hidden")) {
+            strong.setAttribute("hidden", "")
+            p.removeAttribute("hidden")
+          } else {
+            strong.removeAttribute("hidden")
+            p.setAttribute("hidden", "")
+          }
         })
       })
     })
-  }
+  })
 })(document, window)
