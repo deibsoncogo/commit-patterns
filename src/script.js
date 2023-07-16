@@ -692,7 +692,7 @@
         </header>
 
         <main
-          title="Descrição não traduzida: ${emojis[index].descriptionSubtitled}"
+          title="${emojis[index].descriptionSubtitled}"
           class="main"
         >
           <h1 class="keyword">${emojis[index].keyword}</h1>
