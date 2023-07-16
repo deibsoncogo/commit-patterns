@@ -1,6 +1,69 @@
 (function (doc, win) {
   "use strict"
 
+  const types = [
+    {
+      title: "feat",
+      description: "Commits do tipo feat indicam que seu trecho de código está incluindo um novo recurso",
+      summary: "Indicam que um trecho de código foi incluindo criando um novo recurso",
+      keyword: "novo"
+    },
+    {
+      title: "fix",
+      description: "Commits do tipo fix indicam que seu trecho de código do commit está solucionando um problema (bug fix)",
+      summary: "Indicam que um trecho de código foi alterado solucionando um problema",
+      keyword: "correção"
+    },
+    {
+      title: "refactor",
+      description: "Commits do tipo refactor referem-se a mudanças devido a refatorações que não alterem sua funcionalidade, como por exemplo, uma alteração no formato como é processada determinada parte da tela, mas que manteve a mesma funcionalidade, ou melhorias de performance devido a um code review",
+      summary: "Indicam que um trecho de código foi alterado não modificando a funcionalidade",
+      keyword: "alteração"
+    },
+    {
+      title: "perf",
+      description: "Commits do tipo perf servem para identificar quaisquer alterações de código que estejam relacionadas a performance",
+      summary: "Indicam que um trecho de código foi alterado melhorando a performance",
+      keyword: "performance"
+    },
+    {
+      title: "doc",
+      description: "Commits do tipo docs indicam que houveram mudanças na documentação, como por exemplo no readme do seu repositório (não inclui alterações em código)",
+      summary: "Indicam que houveram modificações na documentação sem alterar o código",
+      keyword: "documentação"
+    },
+    {
+      title: "test",
+      description: "Commits do tipo test são utilizados quando são realizadas alterações em testes, seja criando, alterando ou excluindo testes unitários (não inclui alterações em código)",
+      summary: "Indicam que houveram modificações nos testes sem alterar o código",
+      keyword: "teste"
+    },
+    {
+      title: "style",
+      description: "Commits do tipo style indicam que houveram alterações referentes a formatações de código, semicolons, trailing spaces, lint e outros (não inclui alterações em código)",
+      summary: "Indicam que houveram alterações referente a formatação sem alterar o código",
+      keyword: "visual"
+    },
+    {
+      title: "build",
+      description: "Commits do tipo build são utilizados quando são realizadas modificações em arquivos de build e dependências",
+      summary: "Utilizado quando é realizado modificações em arquivo de build e dependência",
+      keyword: "construção"
+    },
+    {
+      title: "chore",
+      description: "Commits do tipo chore indicam atualizações de tarefas de build, configurações de administrador, pacotes e outros como por exemplo adicionar um pacote no gitignore (não inclui alterações em código)",
+      summary: "Utilizado quando é realizado atualizações de tarefa de build",
+      keyword: "tarefa"
+    },
+    {
+      title: "ci",
+      description: "Commits do tipo ci indicam mudanças relacionadas a integração contínua (continuous integration)",
+      summary: "Utilizado quando é realizado modificações relacionado a integração contínua",
+      keyword: "integração"
+    }
+  ]
+
   const emojis = [
     {
       color: "#f74d5f",
@@ -571,6 +634,33 @@
       descriptionDubbed: "Coisa simulada"
     },
   ]
+
+  for (let index = 0; index < types.length; index++) {
+    doc.getElementById("types").innerHTML += `
+      <div class="type">
+        <strong class="title">${types[index].title}</strong>
+        <span class="divisor"></span>
+        <b class="keyword">${types[index].keyword}</b>
+      </div>
+    `
+
+    doc.getElementById("descriptionsType").innerHTML += `
+      <aside class="descriptionType">
+        <div class="titleKeyword">
+          <b class="title">${types[index].title}</b>
+          <span class="divisor"></span>
+          <b class="keyword">${types[index].keyword}</b>
+        </div>
+
+        <p
+          title="${types[index].description}"
+          class="summary"
+        >
+          ${types[index].summary}
+        </p>
+      </aside>
+    `
+  }
 
   for (let index = 0; index < emojis.length; index++) {
     doc.getElementById("emojis").innerHTML += `

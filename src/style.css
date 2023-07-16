@@ -41,6 +41,88 @@ section {
   gap: 1.25rem;
 }
 
+#types {
+  border-radius: 0.625rem;
+  padding: 1.25rem;
+
+  background-color: var(--grey800)
+}
+
+#types .type {
+  display: flex;
+  align-items: center;
+
+  border-radius: 0.625rem;
+  border: 2px solid transparent;
+  padding: .3125rem .9375rem;
+  gap: .3125rem;
+
+  background-color: var(--grey700);
+  cursor: pointer;
+}
+
+#types .type:hover {
+  border-color: var(--grey400);
+  background-color: var(--grey600);
+}
+
+#types .type .title,
+#types .type .keyword {
+  color: var(--grey100);
+  font-weight: 900;
+  font-size: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#types .type .keyword {
+  color: var(--grey50);
+  font-weight: 400;
+}
+
+#types .type .divisor {
+  width: .25rem;
+  height: .25rem;
+  border-radius: 50%;
+
+  background-color: var(--grey300);
+}
+
+#descriptionsType .descriptionType {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#descriptionsType .descriptionType .titleKeyword {
+  display: flex;
+  align-items: center;
+
+  gap: .3125rem;
+}
+
+#descriptionsType .descriptionType .titleKeyword .title,
+#descriptionsType .descriptionType .titleKeyword .keyword {
+  color: var(--grey900);
+  font-size: .875rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#descriptionsType .descriptionType .titleKeyword .divisor {
+  width: .1875rem;
+  height: .1875rem;
+  border-radius: 50%;
+
+  background-color: var(--grey900);
+}
+
+#descriptionsType .descriptionType .summary {
+  text-align: center;
+
+  font-size: 1.125rem;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 #emojis .emoji {
   display: flex;
   flex-direction: column;
