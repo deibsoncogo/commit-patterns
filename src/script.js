@@ -681,6 +681,9 @@
     })
   })
 
+  doc.querySelectorAll(".type")[0].setAttribute("isChecked", "")
+  doc.querySelectorAll(".descriptionType")[0].setAttribute("class", "descriptionType")
+
   for (let index = 0; index < emojis.length; index++) {
     doc.getElementById("emojis").innerHTML += `
       <div class="emoji">
