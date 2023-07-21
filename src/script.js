@@ -665,19 +665,19 @@
   doc.querySelectorAll(".type").forEach((type) => {
     type.addEventListener("click", () => {
       doc.querySelectorAll(".type").forEach((data) => {
-        data.removeAttribute('isChecked', "")
+        data.removeAttribute("isChecked", "")
       })
 
       doc.querySelectorAll(".descriptionType").forEach((data) => {
-        data.setAttribute('class', 'descriptionType hide')
+        data.setAttribute("class", "descriptionType hide")
       })
 
       const title = type.querySelector(".title").innerHTML
 
       type.setAttribute("isChecked", "")
-      doc.querySelector(`#${title}`).setAttribute('class', 'descriptionType')
+      doc.querySelector(`#${title}`).setAttribute("class", "descriptionType")
 
-      doc.querySelector('#descriptionsType').setAttribute('class', '')
+      doc.querySelector("#descriptionsType").setAttribute("class", "")
     })
   })
 
