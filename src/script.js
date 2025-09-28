@@ -52,9 +52,9 @@
     },
     {
       title: "chore",
-      description: "Commits do tipo chore indicam atualizações de tarefas de build, configurações de administrador, pacotes e outros como por exemplo adicionar um pacote no gitignore (não inclui alterações em código)",
-      summary: "Utilizado quando é realizado atualizações de tarefa de build",
-      keyword: "tarefa"
+      description: "Commits do tipo chore indicam a criação ou alteração nas configurações do projeto (não inclui alterações em código)",
+      summary: "Utilizado quando é mexido nas configurações do projeto",
+      keyword: "configuração"
     },
     {
       title: "ci",
